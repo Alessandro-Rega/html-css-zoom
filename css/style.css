@@ -141,6 +141,7 @@ footer{
 }
 
 .controlli .cont-controlli{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +164,14 @@ footer{
 }
 .controlli .fa-retweet{
     color: #4bc800;
+}
+
+.fa-users::after{
+    content: "28";
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 30px;
 }
 
 
