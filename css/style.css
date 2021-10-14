@@ -1,3 +1,5 @@
+/* font-family: 'Roboto', sans-serif; */
+
 /* generali */
 *{
     margin: 0;
@@ -5,3 +7,98 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: green;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222326;
+}
+
+/* footer sezione sinistra */
+.video-audio{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #dcdcdc;
+}
+
+.video-audio .fas{
+    cursor: pointer;
+}
+
+.video-audio .cont-sx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.video-audio .cont-sx .fas{
+    font-size: 30px;
+}
+
+
+/* footer sezione centrale */
+.controlli{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dcdcdc;
+}
+
+.controlli .cont-controlli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.controlli .cont-controlli i{
+    font-size: 25px;
+}
+
+.controlli .cont-controlli span{
+    font-size: 15px;
+}
+
+.controlli .fa-chevron-up{
+    margin-right: 14px;
+}
+.controlli .fa-retweet{
+    color: #4bc800;
+}
+
+
+/* footer sezione destra */
+.end{
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scritta-end{
+    font-size: 17px;
+    color: #f7534b;
+    background-color: #4a4b4c;
+    padding: 20px;
+}
